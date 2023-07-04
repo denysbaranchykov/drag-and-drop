@@ -8,8 +8,8 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #e5e5e5;
     display: flex;
-    padding-top: 5rem;
     justify-content: center;
+    padding-top: 5rem;
     overflow: hidden;
     margin: 0;
 }
@@ -17,8 +17,8 @@ body {
 .row {
     display: flex;
     width: 600px;
-    justify-content: space-between;
     margin-bottom: 1rem;
+    justify-content: space-between;
 }
 
 .col-header {
@@ -27,6 +27,7 @@ body {
     border-radius: 20px;
     padding: 0.8rem 1rem;
     color: #fff;
+    text-align: center;
 }
 
 .item {
@@ -36,8 +37,9 @@ body {
     box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
     border-radius: 20px;
     background: #f7f6f7;
+    background-image: url('https://cdn.wallpapersafari.com/70/30/0wCOx2.jpg');
     padding: 0.8rem 1rem;
-    color: #828282;
+    color: #a9a9a9;
     text-align: center;
     cursor: grab;
 }
@@ -61,4 +63,22 @@ body {
 
 .done {
     background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+
+.hold {
+    border: 2px solid #04c1fa;
+    border-radius: 25px;
+    /*filter: grayscale(100%)*/
+    filter: hue-rotate(90deg);
+}
+
+.hide {
+    display: none
+}
+
+.hovered {
+    border: 2px solid #68e0cf;
+    border-radius: 20px;
+    /*border-top: 2px solid #68e0cf;*/
 }
