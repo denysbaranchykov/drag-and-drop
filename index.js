@@ -25,7 +25,7 @@ for (const placeholder of placeholders) {
 }
 
 function dragover(event) {
-event.preventDefault();
+    event.preventDefault();
 }
 
 function dragenter(event) {
